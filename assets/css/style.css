@@ -5,6 +5,7 @@
 #head {
   background-color: rgb(170, 95, 10);
   color: antiquewhite;
+  text-align: center;
   width: 22%;
   height: 80px;
   padding: 15px;
@@ -41,17 +42,16 @@
   clear: both;
 }
 
-.col-sm-9 {
-  background-color: rgb(79, 138, 79);
-  color: white;
-  margin: 30px;
-  width: 25%;
+.text-left{
+  color: black;
+  text-emphasis: bolder;
+  background-color: aquamarine;
 }
 
-.col-sm-3 {
-  background-color: aqua;
-  margin: 30px;
-
+.winspan{
+  color: black;
+  text-emphasis: bolder;
+  background-color: aquamarine; 
 }
 
 .card {
@@ -61,11 +61,25 @@
   background-color: #f1f1f1;
 }
 
+.randomnumber {
+  background: rgb(77, 173, 74);
+  margin-left: 22px;
+  height: 75px;
+}
+
+#random-number{
+  color: purple;
+  margin-left: 70px;
+
+}
 .columns {
-  background-color: blue;
+  background-color: teal;
   color: white;
   margin-top: 200px;
   width: 26%;
+  margin-left: 15px;
+  height: 40%;
+  margin-bottom: 15px;
 }
 
 @media screen and (max-width: 600px) {
